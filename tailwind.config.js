@@ -2,7 +2,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brightRight: "hsl(360, 100%, 50%)",
+        accentCyan: "hsl(180, 100%, 43%)",
+      },
+    },
   },
   plugins: [],
 };
